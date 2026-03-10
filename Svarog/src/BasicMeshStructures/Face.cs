@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Utils;
 
-namespace Svarog
+using Svarog.ObjFiles;
+using Svarog.Utils;
+
+namespace Svarog.BasicMeshStructures
 {
     internal class Face : FaceBase, IPartOfObj
     {

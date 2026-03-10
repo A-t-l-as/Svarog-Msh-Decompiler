@@ -43,28 +43,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Apps\IApp.cs" />
-    <Compile Include="Apps\SvarogApp.cs" />
-    <Compile Include="BasicMeshStructures\Face.cs" />
-    <Compile Include="BasicMeshStructures\FaceBase.cs" />
-    <Compile Include="ObjFile\IConvertableToObj.cs" />
-    <Compile Include="ObjFile\IPartOfObj.cs" />
-    <Compile Include="MeshFile\Mesh.cs" />
-    <Compile Include="MeshFile\MeshChunk.cs" />
-    <Compile Include="MeshFile\MeshContainer.cs" />
-    <Compile Include="MeshFile\MeshFile.cs" />
-    <Compile Include="BasicMeshStructures\Normal.cs" />
-    <Compile Include="ObjFile\Obj.cs" />
-    <Compile Include="Utils\BinaryBuffer.cs" />
-    <Compile Include="MeshFile\MeshHeader.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="src\Apps\IApp.cs" />
+    <Compile Include="src\Apps\SvarogApp.cs" />
+    <Compile Include="src\BasicMeshStructures\Face.cs" />
+    <Compile Include="src\BasicMeshStructures\FaceBase.cs" />
+    <Compile Include="src\ObjFiles\IConvertableToObj.cs" />
+    <Compile Include="src\ObjFiles\IPartOfObj.cs" />
+    <Compile Include="src\MeshFiles\Mesh.cs" />
+    <Compile Include="src\MeshFiles\MeshChunk.cs" />
+    <Compile Include="src\MeshFiles\MeshContainer.cs" />
+    <Compile Include="src\MeshFiles\MeshFile.cs" />
+    <Compile Include="src\BasicMeshStructures\Normal.cs" />
+    <Compile Include="src\ObjFiles\Obj.cs" />
+    <Compile Include="src\Utils\BinaryBuffer.cs" />
+    <Compile Include="src\MeshFiles\MeshHeader.cs" />
+    <Compile Include="src\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Factories\RotationMatrixFactory.cs" />
-    <Compile Include="Utils\MeshUtils.cs" />
-    <Compile Include="BasicMeshStructures\UVVertex.cs" />
-    <Compile Include="BasicMeshStructures\UVVertexBase.cs" />
-    <Compile Include="BasicMeshStructures\Vertex.cs" />
-    <Compile Include="BasicMeshStructures\VertexBase.cs" />
+    <Compile Include="src\Factories\RotationMatrixFactory.cs" />
+    <Compile Include="src\Utils\MeshUtils.cs" />
+    <Compile Include="src\BasicMeshStructures\UVVertex.cs" />
+    <Compile Include="src\BasicMeshStructures\UVVertexBase.cs" />
+    <Compile Include="src\BasicMeshStructures\Vertex.cs" />
+    <Compile Include="src\BasicMeshStructures\VertexBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

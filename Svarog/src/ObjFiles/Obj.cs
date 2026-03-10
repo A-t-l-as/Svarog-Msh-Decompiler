@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Security.Policy;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace Svarog
+using Svarog.BasicMeshStructures;
+using Svarog.MeshFiles;
+
+namespace Svarog.ObjFiles
 {
     internal class Obj
     {

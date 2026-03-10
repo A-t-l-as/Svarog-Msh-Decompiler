@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Utils;
+
+using Svarog.ObjFiles;
+using Svarog.MeshFiles;
+using Svarog.Utils;
 
 namespace Svarog.Apps
 {

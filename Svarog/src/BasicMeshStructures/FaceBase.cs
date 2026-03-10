@@ -1,10 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Svarog
+using System.Text;
+
+using Svarog.ObjFiles;
+
+namespace Svarog.BasicMeshStructures
 {
     abstract class FaceBase : IConvertableToObj
     {

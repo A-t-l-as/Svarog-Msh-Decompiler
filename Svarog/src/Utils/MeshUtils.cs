@@ -1,11 +1,8 @@
-﻿using Svarog;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using Svarog.ObjFiles;
+using Svarog.MeshFiles;
 
-namespace Utils
+namespace Svarog.Utils
 {
     internal class MeshUtils
     {

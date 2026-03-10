@@ -1,11 +1,9 @@
-﻿using Microsoft.SqlServer.Server;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Svarog
+using Svarog.BasicMeshStructures;
+
+namespace Svarog.MeshFiles
 {
     internal class MeshChunk
     {

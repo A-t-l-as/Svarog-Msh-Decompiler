@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Svarog
+using Svarog.ObjFiles;
+
+namespace Svarog.BasicMeshStructures
 {
     abstract class VertexBase : IConvertableToObj
     {

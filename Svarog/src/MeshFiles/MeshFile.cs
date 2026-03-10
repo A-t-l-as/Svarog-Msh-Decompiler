@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Svarog
+namespace Svarog.MeshFiles
 {
     internal class MeshFile
     {
