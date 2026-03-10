@@ -19,11 +19,16 @@ namespace Svarog.Utils
             List<Obj> result = new List<Obj>();
 
             List<Mesh> meshes = container.Meshes;
-            string textureName = container.TextureName;
 
-            foreach(Mesh mesh in meshes)
-                result.Add( new Obj(mesh, textureName) );
-            
+            foreach (Mesh mesh in meshes)
+            {
+                List<MeshLOD> meshLODs = mesh.Lods;
+                string textureName = mesh.TextureName;
+
+                foreach (MeshLOD meshLOD in meshLODs)
+                    result.Add(new Obj(meshLOD, textureName));
+            }
+
             return result;
         }
 

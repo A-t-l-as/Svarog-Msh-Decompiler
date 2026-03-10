@@ -18,7 +18,7 @@ namespace Svarog.ObjFiles
             this.mFaces         = new List<Face>();
         }
 
-        public Obj(Mesh argMesh, string argTextureName)
+        public Obj(MeshLOD argMesh, string argTextureName)
         {
             this.mTextureName = argTextureName;
             this.mVertices = argMesh.GetOnlyVertexes();

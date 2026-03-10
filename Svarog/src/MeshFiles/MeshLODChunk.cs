@@ -5,9 +5,9 @@ using Svarog.BasicMeshStructures;
 
 namespace Svarog.MeshFiles
 {
-    internal class MeshChunk
+    internal class MeshLODChunk
     {
-        public MeshChunk() 
+        public MeshLODChunk() 
         {
             this.mVertex = new Vertex();
             this.mNormal = new Normal();

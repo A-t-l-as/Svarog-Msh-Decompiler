@@ -3,9 +3,9 @@ using System.Linq;
 
 namespace Svarog.MeshFiles
 {
-    internal class MeshHeader
+    internal class MeshFileHeader
     {
-        public MeshHeader()
+        public MeshFileHeader()
         {
             this.mMagicBytes = new byte[ sizeof(UInt32) ];
             this.mGuid = new Guid();
@@ -57,7 +57,7 @@ namespace Svarog.MeshFiles
         private Guid mGuid;
         private byte[] mFormat;
 
-        private const ulong cSizeOfCustomDataBlock = 0xFBC / sizeof(UInt32);
+        private const ulong cSizeOfCustomDataBlock = 0xFB4 / sizeof(UInt32);
         private readonly UInt32[] mCustomDataBlock;
     }
 }
