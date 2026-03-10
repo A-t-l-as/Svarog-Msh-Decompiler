@@ -22,7 +22,7 @@ The program also works in ARGC&ARGV mode:<br>
 `MSHdecompiler.exe <nazwapliku.msh> r x -1 int`<br>
 
 -> The program does not support particles but can detect them and bypass them.<br>
--> To export everything it is recommended to simply use the .bat file "_EXPORT_ALL.bat" or .ps1 file "_EXPORT_ALL.ps1".<br>
+-> To export everything it is recommended to simply use the .bat file `_EXPORT_ALL.bat` or .ps1 file `_EXPORT_ALL.ps1`.<br>
 
 ---
 
@@ -50,4 +50,4 @@ Program działa również w trybie ARGC&ARGV:<br>
 `MSHdecompiler.exe <nazwapliku.msh> r x -1 int`<br>
 
 -> Program nie obsługuje particlesów ale potrafi je wykryć i je ominąć.<br>
--> Do exportu wszystkiego zaleca się użycie po prostu pliku .bat "_EXPORT_ALL.bat" lub pliku .ps1 "_EXPORT_ALL.ps1".<br>
+-> Do exportu wszystkiego zaleca się użycie po prostu pliku .bat `_EXPORT_ALL.bat` lub pliku .ps1 `_EXPORT_ALL.ps1`.<br>
