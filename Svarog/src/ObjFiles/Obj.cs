@@ -38,16 +38,16 @@ namespace Svarog.ObjFiles
 
             sb.Append($"# Svarog\n# OBJ Model\n");
 
-            sb.Append($"\n#Vertices {this.mVertices.Count}\n");
+            sb.Append($"\n# Vertices {this.mVertices.Count}\n");
             sb.Append(ConvertListToObjString(this.mVertices));
 
-            sb.Append($"\n#UVs {this.mUVs.Count}\n");
+            sb.Append($"\n# UVs {this.mUVs.Count}\n");
             sb.Append(ConvertListToObjString(this.mUVs));
 
-            sb.Append($"\n#Normals {this.mNormals.Count}\n");
+            sb.Append($"\n# Normals {this.mNormals.Count}\n");
             sb.Append(ConvertListToObjString(this.mNormals));
 
-            sb.Append($"\n#Faces {this.mFaces.Count}\n");
+            sb.Append($"\n# Faces {this.mFaces.Count}\n");
             sb.Append(ConvertListToObjString(this.mFaces));
 
             return sb.ToString();
