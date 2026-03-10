@@ -75,6 +75,8 @@ namespace Svarog.Apps
                 return;
             }
 
+            string subDir = Path.Combine(inputDir, objectNameOnly);
+            Directory.CreateDirectory(subDir);
 
             List<Obj> objs = MeshUtils.ConvertToObjList(myMeshFile.GetMeshContainer);
 
@@ -93,7 +95,7 @@ namespace Svarog.Apps
                     foreach (Obj obj in objs)
                     {
                         obj.RotateVia(axis, rotationAngle);
-                        string outputPath = Path.Combine(inputDir, $"{objectNameOnly}_{i++}.obj");
+                        string outputPath = Path.Combine(subDir, $"{objectNameOnly}_{i++}.obj");
                         obj.ExportTo(outputPath);
                     }
                 }
@@ -109,7 +111,7 @@ namespace Svarog.Apps
                 ulong i = 0;
                 foreach (Obj obj in objs)
                 {
-                    string outputPath = Path.Combine(inputDir, $"{objectNameOnly}_{i++}.obj");
+                    string outputPath = Path.Combine(subDir, $"{objectNameOnly}_{i++}.obj");
                     obj.ExportTo(outputPath);
                 }
             }
